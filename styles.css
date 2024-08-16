@@ -81,3 +81,41 @@ img {
     height: auto;
 }
 
+.section-two {
+    display: flex;
+    flex-direction: column;
+    padding: 0 300px 100px 300px;   
+}
+
+.heading {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 40px 0px;
+}
+
+.destinations {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.destination-images {
+    width: 250px;
+    height: 250px;
+    border: 4px solid #1f2937;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.destination-info {
+    color: #1f2937;
+    width: 250px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.destination-name {
+    font-weight: bolder;
+}
