@@ -119,3 +119,23 @@ img {
 .destination-name {
     font-weight: bolder;
 }
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 100px 400px 100px 400px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-by {
+    text-align: right;
+    padding-right: 50px;
+    font-size: 24px;
+    font-weight: bolder;
+}
