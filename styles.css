@@ -69,9 +69,9 @@ a {
 button {
     color: #e5e7eb;
     background-color: #3882f6;
-    width: 120px;
-    border-radius: 12px;
-    padding: 8px 16px;
+    width: 125px;
+    border-radius: 8px;
+    padding: 4px;
     font-size: 18px;
     font-weight: bold;
 }
@@ -138,4 +138,37 @@ img {
     padding-right: 50px;
     font-size: 24px;
     font-weight: bolder;
+}
+
+.section-four {
+    display: flex;
+    background-color: #3882f6;
+    margin: 50px 200px 50px 200px;
+    justify-content: space-between;
+    padding: 50px 150px 50px 150px;
+    border-radius: 8px;
+}
+
+.call-heading {
+    font-size: 24px;
+    color: #e5e7eb;
+    font-weight: bolder;
+}
+
+.call-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.button-two {
+    border: 2px solid #e5e7eb;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #1f2937;
+    color: #e5e7eb;
 }
